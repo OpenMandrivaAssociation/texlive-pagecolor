@@ -6,7 +6,7 @@
 # catalog-version 1.0c
 Name:		texlive-pagecolor
 Version:	1.0c
-Release:	1
+Release:	2
 Summary:	Interrogate page colour
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pagecolor
