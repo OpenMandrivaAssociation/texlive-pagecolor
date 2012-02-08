@@ -1,12 +1,12 @@
-# revision 23556
+# revision 25284
 # category Package
 # catalog-ctan /macros/latex/contrib/pagecolor
-# catalog-date 2011-08-12 11:32:52 +0200
+# catalog-date 2012-02-01 19:37:20 +0100
 # catalog-license lppl
-# catalog-version 1.0c
+# catalog-version 1.0d
 Name:		texlive-pagecolor
-Version:	1.0c
-Release:	2
+Version:	1.0d
+Release:	1
 Summary:	Interrogate page colour
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pagecolor
