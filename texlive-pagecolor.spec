@@ -1,19 +1,13 @@
-# revision 25500
-# category Package
-# catalog-ctan /macros/latex/contrib/pagecolor
-# catalog-date 2014-02-26 23:03:13 +0100
-# catalog-license lppl
-# catalog-version 1.0e
 Name:		texlive-pagecolor
-Version:	1.0i
-Release:	2
+Version:	44487
+Release:	1
 Summary:	Interrogate page colour
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pagecolor
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pagecolor.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pagecolor.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pagecolor.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pagecolor.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pagecolor.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pagecolor.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -29,12 +23,12 @@ result of using the \nopagecolor command). In that case
 \thepagecolor is "white" and \thepagecolornone is "none".
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -50,7 +44,8 @@ result of using the \nopagecolor command). In that case
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
