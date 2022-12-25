@@ -1,5 +1,5 @@
 Name:		texlive-pagecolor
-Version:	44487
+Version:	65120
 Release:	1
 Summary:	Interrogate page colour
 Group:		Publishing
