@@ -1,6 +1,6 @@
 Name:		texlive-pagecolor
 Version:	65120
-Release:	1
+Release:	2
 Summary:	Interrogate page colour
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pagecolor
