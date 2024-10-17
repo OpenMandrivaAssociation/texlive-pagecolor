@@ -3,7 +3,7 @@ Version:	65120
 Release:	2
 Summary:	Interrogate page colour
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pagecolor
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pagecolor
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pagecolor.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pagecolor.doc.r%{version}.tar.xz
